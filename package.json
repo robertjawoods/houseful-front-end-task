@@ -1,0 +1,38 @@
+{
+  "name": "fe-dev-challenge",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "config": {
+    "test": "vite.config.ts"
+  },
+  "scripts": {
+    "server": "json-server ./src/server/listings.json --port 3001",
+    "dev": "pnpm server && vite",
+    "build": "tsc && vite build",
+    "test": "pnpm server && vitest run --config vite.config.ts",
+    "test:watch": "pnpm server && vitest --config vite.config.ts",
+    "preview": "pnpm server && vite preview",
+    "lint": "pnpx eslint --ext .ts,.tsx src"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.51.18",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.51.15",
+    "@testing-library/jest-dom": "6.4.2",
+    "@testing-library/react": "15.0.2",
+    "@types/node": "20.12.7",
+    "@types/react": "18.2.74",
+    "@types/react-dom": "18.2.0",
+    "@vitejs/plugin-react": "4.2.1",
+    "jsdom": "24.0.0",
+    "json-server": "1.0.0-beta.1",
+    "typescript": "5.4.5",
+    "vite": "5.2.9",
+    "vitest": "1.5.0",
+    "eslint": "^9.8.0"
+  }
+}

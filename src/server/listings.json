@@ -1,0 +1,43 @@
+{ 
+    "listings": [
+        {
+            "id": 1, 
+            "askingPrice": 1000000,
+            "bedrooms": 2,
+            "address": { 
+                "line1": "1234 Elm St",
+                "line2": "Apt 101",
+                "city": "Springfield",
+                "postalCode": "12345"
+            },
+            "image": "https://placehold.co/200",
+            "status": "Active"
+        },
+        {
+            "id": 2, 
+            "askingPrice": 2000000,
+            "bedrooms": 3,
+            "address": { 
+                "line1": "5678 Oak St",
+                "line2": "Apt 202",
+                "city": "Springfield",
+                "postalCode": "12345"
+            },
+            "image": "https://placehold.co/200",
+            "status": "Active"
+        },
+        {
+            "id": 3, 
+            "askingPrice": 3000000,
+            "bedrooms": 4,
+            "address": { 
+                "line1": "91011 Pine St",
+                "line2": "Apt 303",
+                "city": "Springfield",
+                "postalCode": "12345"
+            },
+            "image": "https://placehold.co/200",
+            "status": "Active"
+        }
+    ]
+}
