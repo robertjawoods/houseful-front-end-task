@@ -1,8 +1,9 @@
 export interface Listing {
-    image: string; 
+    id: number;
+    image: string;
     bedrooms: number;
     askingPrice: number;
-    address: string;
+    address: Address;
     status: ListingStatus;
 }
 
