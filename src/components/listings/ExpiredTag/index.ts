@@ -1,0 +1,1 @@
+export { ExpiredTag } from './ExpiredTag';

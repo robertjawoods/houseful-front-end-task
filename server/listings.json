@@ -10,8 +10,8 @@
                 "city": "London",
                 "postalCode": "SW1A 1AA"
             },
-            "image": "https://placehold.co/200",
-            "status": "Active"
+            "image": "https://cdn.mos.cms.futurecdn.net/dLmaXYrZ8wRMLfVoQcugi.jpg",
+            "isActive": false
         },
         {
             "id": 5,
@@ -23,8 +23,8 @@
                 "city": "London",
                 "postalCode": "E1 6AA"
             },
-            "image": "https://placehold.co/200",
-            "status": "Active"
+            "image": "https://media.houseandgarden.co.uk/photos/61894e9d8373470f8394e674/1:1/w_1280,h_1280,c_limit/CNSTMMGLPICT000002518641-house-11jan17-simon-upton_b.jpg",
+            "isActive": true
         },
         {
             "id": 6,
@@ -36,8 +36,8 @@
                 "city": "London",
                 "postalCode": "N1 9AA"
             },
-            "image": "https://placehold.co/200",
-            "status": "Active"
+            "image": "https://media.houseandgarden.co.uk/photos/6189469862b737ababca1639/1:1/w_1500,h_1500,c_limit/romanticsandclassics_p118-119.jpg",
+            "isActive": true
         },
         {
             "id": 7,
@@ -49,8 +49,8 @@
                 "city": "London",
                 "postalCode": "W1K 7AA"
             },
-            "image": "https://placehold.co/200",
-            "status": "Active"
+            "image": "https://www.designhunter.co.uk/wp-content/uploads/2024/02/DALL%C2%B7E-2024-02-26-12.36.22-Create-a-photorealistic-image-of-a-typical-1930s-semi-detached-house-in-a-UK-suburb.-The-house-should-feature-a-tiled-bay-window-white-windows-and-a.webp",
+            "isActive": true
         },
         {
             "id": 8,
@@ -62,8 +62,8 @@
                 "city": "London",
                 "postalCode": "WC2E 8AA"
             },
-            "image": "https://placehold.co/200",
-            "status": "Active"
+            "image": "https://cdn.mos.cms.futurecdn.net/YESqE3DA25SMHkTj8mDmXM.jpg",
+            "isActive": true
         },
         {
             "id": 9,
@@ -76,7 +76,7 @@
                 "postalCode": "EC4N 8AA"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 10,
@@ -89,7 +89,7 @@
                 "postalCode": "SE1 9AA"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 11,
@@ -102,7 +102,7 @@
                 "postalCode": "NW1 7AA"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 12,
@@ -115,7 +115,7 @@
                 "postalCode": "SW3 4AA"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 13,
@@ -128,7 +128,7 @@
                 "postalCode": "W1B 5AA"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 14,
@@ -141,7 +141,7 @@
                 "postalCode": "W1D 1AA"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 15,
@@ -154,7 +154,7 @@
                 "postalCode": "W1U 6AA"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 16,
@@ -167,7 +167,7 @@
                 "postalCode": "W1J 9AA"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 17,
@@ -180,7 +180,7 @@
                 "postalCode": "WC2R 1AA"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 18,
@@ -193,7 +193,7 @@
                 "postalCode": "EC4A 2AA"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 19,
@@ -206,7 +206,7 @@
                 "postalCode": "W1J 9PE"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 20,
@@ -219,7 +219,7 @@
                 "postalCode": "SW1Y 5EA"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 21,
@@ -232,7 +232,7 @@
                 "postalCode": "SW1A 2BX"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 22,
@@ -245,7 +245,7 @@
                 "postalCode": "SW1E 5NE"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 23,
@@ -258,7 +258,7 @@
                 "postalCode": "NW8 9BX"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 24,
@@ -271,7 +271,7 @@
                 "postalCode": "SW3 5UZ"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         },
         {
             "id": 25,
@@ -284,7 +284,7 @@
                 "postalCode": "W11 1LL"
             },
             "image": "https://placehold.co/200",
-            "status": "Active"
+            "isActive": true
         }
     ]
 }

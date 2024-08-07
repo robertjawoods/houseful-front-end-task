@@ -7,20 +7,23 @@
     "test": "vite.config.ts"
   },
   "scripts": {
-    "server": "json-server ./src/server/listings.json --port 3001",
-    "dev": "vite",
+    "server": "ts-node ./server/index.ts",
+    "dev": "vite --host",
     "build": "tsc && vite build",
-    "test": "pnpm server && vitest run --config vite.config.ts",
-    "test:watch": "pnpm server && vitest --config vite.config.ts",
+    "test": "vitest run --config vite.config.ts",
+    "test:watch": "vitest --config vite.config.ts --disable-console-intercept ",
     "preview": "pnpm server && vite preview",
-    "lint": "pnpx eslint --ext .ts,.tsx src"
+    "lint": "pnpx eslint --ext .ts,.tsx src",
+    "visualise": "pnpx vite-bundle-visualizer"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.51.18",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^5.2.1"
   },
   "devDependencies": {
+    "@axe-core/react": "^4.9.1",
     "@tanstack/eslint-plugin-query": "^5.51.15",
     "@testing-library/jest-dom": "6.4.2",
     "@testing-library/react": "15.0.2",
@@ -31,13 +34,16 @@
     "autoprefixer": "^10.4.20",
     "eslint": "^9.8.0",
     "jsdom": "24.0.0",
-    "json-server": "1.0.0-beta.1",
+    "msw": "^2.3.5",
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.7",
     "typescript": "5.4.5",
     "vite": "5.2.9",
-    "vite-aliases": "^0.11.7",
-    "vite-tsconfig-paths": "^4.3.2",
     "vitest": "1.5.0"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
   }
 }
