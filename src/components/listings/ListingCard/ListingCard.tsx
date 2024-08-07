@@ -19,7 +19,7 @@ export const ListingCard = ({ listing }: { listing: Listing }) => {
     }, [clicked]);
 
     return (
-        <li data-testid='listing' className={`flex flex-col md:flex-row md:rounded-l-md justify-center `}>
+        <li data-testid='listing' className={`flex  w-full flex-col md:flex-row md:rounded-l-md justify-center max-h-max`}>
             <div aria-roledescription='tap to toggle listing status' title='tap to toggle listing status'
                 className={`min-w-80 m-6 rounded-md shadow-xl cursor-pointer transform ${clicked ? 'scale-95' : ''}`}
                 onClick={() => {

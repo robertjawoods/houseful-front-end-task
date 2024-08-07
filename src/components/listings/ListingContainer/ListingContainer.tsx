@@ -47,7 +47,7 @@ export const ListingContainer = () => {
                 <FilterButton active={filterValue === 'active'} filterValue={'active'} setFilterValue={setFilterValue} />
                 <FilterButton active={filterValue === 'expired'} filterValue={'expired'} setFilterValue={setFilterValue} />
             </div>
-            <ul className="flex flex-col sm:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify">
+            <ul className="flex flex-col sm:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                 {filteredListings?.listings.map((listing: Listing) => (
                     <ListingCard key={listing.id} listing={listing} />
                 ))}
