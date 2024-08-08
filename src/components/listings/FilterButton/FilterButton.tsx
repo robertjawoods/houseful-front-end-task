@@ -7,7 +7,6 @@ const getFormattedValue = (filterValue: ListingFilter) => {
     if (filterValue === 'expired') return 'Expired';
 }
 
-
 export const FilterButton = ({ active, filterValue, setFilterValue }: { active: boolean, filterValue: ListingFilter, setFilterValue: Dispatch<SetStateAction<ListingFilter>> }) => (
-    <button onClick={() => setFilterValue(filterValue)} aria-pressed={active} className={`${active ? 'bg-green-200' : ''} px-3 py-1 rounded-md`}>{getFormattedValue(filterValue)}</button>
+    <button onClick={() => setFilterValue(filterValue)} className={`${active ? 'bg-green-200' : ''} px-3 py-1 rounded-md`}>{getFormattedValue(filterValue)}</button>
 );
